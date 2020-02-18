@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
 	end
 
 	def details
-		@search_term = params[:name] || 'Walter White'
+		@search_term = params[:name]
 		@results = Product.search(@search_term)
 	end
 
