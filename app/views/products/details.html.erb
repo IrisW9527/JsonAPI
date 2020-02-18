@@ -1,6 +1,6 @@
 
 <h1>Character Details: <%= @search_term %></h1>
-<h2><a href="http://127.0.0.1:3000/products/index">Home</a></h2>
+<h2><%= link_to("Home", controller: "products", action: "index") %></h2>
 
 <div class="table-responsive">
 	<div class="navbar-header">
