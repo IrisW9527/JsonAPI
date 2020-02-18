@@ -15,7 +15,7 @@
 				<% @list.each do |product| %>
 					<tr>
 						<td scope="row">
-							<%= link_to(product['name'],"details?name=#{product['name']}")%>
+							<%= link_to(product['name'],controller: "products", action: "details", id: "name", class: "@search_term") %>
 						</td>
 						<td scope="row"><%= image_tag(product['img']) %></td>
 					</tr>
