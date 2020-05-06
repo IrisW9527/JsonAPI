@@ -1,25 +1,10 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # JsonAPI-bb
+
+# implement a Rails based application that fetches data from a JSON based API presented in a table format
+
+# Completed Website => https://testbbapi.herokuapp.com/
+# The website has only 2 active pages:
+  # index page 
+  # details page
+
+# API website link: https://breakingbadapi.com/documentation
